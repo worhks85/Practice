@@ -1,3 +1,4 @@
+package firstPracitce;
 /*
  * 지시자 
  * %b 		불린 형식으로 출력

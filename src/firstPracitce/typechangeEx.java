@@ -1,3 +1,4 @@
+package firstPracitce;
 /*
  * 문자열로 변환
  * - 3 + "" = "3"

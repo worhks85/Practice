@@ -1,3 +1,4 @@
+package firstPracitce;
 
 public class VarEx3 {
 

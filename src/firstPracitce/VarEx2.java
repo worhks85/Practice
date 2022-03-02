@@ -1,3 +1,4 @@
+package firstPracitce;
 // byte , short , int ,long = 정수형 1	Long 접미사 L
 // char = 문자형 '가'			
 // float , double = 실수형 3.14		접미사 f,d

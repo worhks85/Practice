@@ -1,3 +1,4 @@
+package firstPracitce;
 
 public class Ex2_1 {
 
