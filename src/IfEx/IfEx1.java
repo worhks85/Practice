@@ -12,6 +12,9 @@ import java.util.Scanner;
  * else{
  * }
  * 
+ * 
+ * switch (Á¶°Ç){
+ * 	case
  */
 public class IfEx1 {
 
