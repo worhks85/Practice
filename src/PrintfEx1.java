@@ -13,6 +13,10 @@
  *  System.out.printf("age: %d year:d \n" ,14 , 2017)
  *  "age : 14 year : 2017 \n" 이화면에 출력된다.   
  *  
+ *  %자리수d	printf("\n%5d\n", 16) 	(   16)	빈공간이 왼쪽에 생김
+ *  %-자리수d	printf("\n%-5d\n",16) 	(16   )	빈공간이 오른쪽에 생김
+ *  %0자리수d	printf("\n%05d\n",16)	(00016)	빈공간이 0으로 채워짐
+ *  
  *  */
 public class PrintfEx1 {
 
