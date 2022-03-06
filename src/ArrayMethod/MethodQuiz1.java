@@ -14,7 +14,6 @@ public class MethodQuiz1 {
 	}
 	public static int Pivo(int n ) {
 		if (n<3) return 1;
-		
 		return Pivo(n-2) + Pivo(n-1);
 	}
 }
