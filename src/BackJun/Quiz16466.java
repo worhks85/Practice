@@ -1,11 +1,6 @@
 package BackJun;
 
-import java.awt.FocusTraversalPolicy;
 import java.util.Scanner;
-import java.util.zip.ZipEntry;
-
-import javax.imageio.metadata.IIOMetadataFormatImpl;
-
 
 
 public class Quiz16466 {

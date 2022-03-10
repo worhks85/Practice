@@ -4,20 +4,22 @@ class Bank{
 	private String name;
 	private double money;
 	private static float iyul;
-	
+	static {
+		iyul = 0.02f;
+	}
 	public Bank(String name, double money, float iyul) {
 		this.name = name;
 		this.money = money;
-		this.iyul = iyul;
+		Bank.iyul = iyul;
 		
 	}
 	public void setIyul(float iyul) {
-		this.iyul =iyul;
+		Bank.iyul =iyul;
 		
 	}
 	public void disp() {
-		System.out.println(name + "님의 잔액은 "+ money +"원 이고, 현재 적용 되는 이율은 "+ iyul *100+"% 입니다." );
-		
+		System.out.println(name + "님의 잔액은 "+ money +"원 이고"
+				+ ", 현재 적용 되는 이율은 "+ Bank.iyul *100+"% 입니다." );
 	}
 	
 	

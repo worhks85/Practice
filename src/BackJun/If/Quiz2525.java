@@ -1,4 +1,4 @@
-package BackJun;
+package BackJun.If;
 
 import java.util.Scanner;
 
