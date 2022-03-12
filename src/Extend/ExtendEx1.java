@@ -1,7 +1,6 @@
-package NestingClass;
+package Extend;
 
-
-public class LocalNestingClass {
+public class ExtendEx1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

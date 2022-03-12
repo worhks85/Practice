@@ -46,6 +46,7 @@ class Outer1{
 		Outer1 ot = new Outer1();
 		ot.disp();
 		Outer1.Inner1 oi = ot.new Inner1();
+
 		
 	}
 
