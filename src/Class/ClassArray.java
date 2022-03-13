@@ -1,9 +1,6 @@
 package Class;
 
-import java.rmi.server.Skeleton;
 import java.util.Scanner;
-
-import javax.print.attribute.standard.MediaSize.Engineering;
 
 class SungJuk{
 	String name;
