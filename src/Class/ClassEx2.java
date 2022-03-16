@@ -1,4 +1,8 @@
 package Class;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
 /****************************************************************************************
  * 접근제한자
  *  
@@ -69,14 +73,31 @@ package Class;
  *  - 스타크래프트의 미네랄을 캐는것을 생각하면 됨
  *  
  */
+import java.util.*;
 public class ClassEx2 {
 
 	public static void main(String[] args) {
+		HashSet hs = new HashSet();
+		String a = new String("유재석");
+		String b = "강호동";
+		hs.add(a);
+		hs.add(b);
+		hs.add("정형돈");
+		hs.add("김제동");
 		
-		
-		
-		
-		
+	
+		Iterator it = hs.iterator();
+		while(it.hasNext()) {
+			Object obj = it.next();
+			String name = (String)obj;
+			System.out.println(name);
+		}
+//		System.out.println(hs.size());
+//		hs.remove("김제동");
+//		System.out.println(hs.size());
+		System.out.println(hs.size());
+		hs.remove("김제동");
+		System.out.println(hs.size());
 		
 		
 		
