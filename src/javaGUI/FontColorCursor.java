@@ -36,14 +36,6 @@ class MyFrame4 extends Frame{
 
 
 
-
-
-
-
-
-
-
-
 public class FontColorCursor {
 
 	public static void main(String[] args) {
