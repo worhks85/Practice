@@ -27,6 +27,12 @@ public class Ex01 {
 		//객체 생성시 true이면 이어쓰기 false이면 다시쓰기
 		//fos.write(65);
 		fos.write('B');
+		fos.write('A');
+		String msg = "Hello Java!!";
+		byte by[] = msg.getBytes();
+		fos.write(by);
+		fos.write(by, 6,4);	 //write (문자열배열 , 어디부터, 몇글자)
+		
 		
 		
 	}
