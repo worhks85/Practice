@@ -1,6 +1,7 @@
 package textIO;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class Ex02 {
 public static void main(String[] args) throws IOException{
@@ -12,6 +13,11 @@ public static void main(String[] args) throws IOException{
 	while(true) {
 		String msg = br.readLine();
 		if(msg == null) break;
+		Scanner sc = new Scanner(msg).useDelimiter("\\s*tt\\s*");
+		System.out.println(sc.next());
+		System.out.println(sc.next());
+		System.out.println(sc.next());
+		System.out.println(sc.next());
 		System.out.println(msg);
 	}
 			
