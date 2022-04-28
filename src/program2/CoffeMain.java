@@ -37,7 +37,7 @@ public class CoffeMain {
 				Loop2 : while(true) {
 					System.out.println("#############커피숍 관리 프로그램 ############");
 					System.out.println("1. 전체 메뉴보기 2. 커피메뉴 등록");
-					System.out.println("3. 메뉴 수정 4. 메뉴 삭제");
+					System.out.println("3. 메뉴 수정 4. 메뉴 삭제"); 
 					System.out.println("5. 나가기");
 					System.out.println("##########################################");
 					System.out.println();
