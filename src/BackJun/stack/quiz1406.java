@@ -37,10 +37,6 @@ public class quiz1406 {
 				list.add(index, command.charAt(2));
 				if( index < in.length()) index++;
 			}
-			for ( char ch : list) {
-				System.out.print(ch);
-			}
-			System.out.println();
 		}
 		
 		for ( char ch : list) {
